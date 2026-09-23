@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.App > h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.general-info,
+.education,
+.experience {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+ .App > *:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.general-info h2,
+.education h2,
+.experience h2 {
+  margin-bottom: 1rem;
+}
+
+.general-info label,
+.education label,
+.experience label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.general-info input,
+.education input,
+.experience input,
+.experience textarea {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
+  font-weight: normal;
+  box-sizing: border-box;
+}
+
+.general-info p,
+.education p,
+.experience p {
+  margin: 0.5rem 0;
+}
+
+button {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
